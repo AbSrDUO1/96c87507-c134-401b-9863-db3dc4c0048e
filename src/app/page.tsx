@@ -21,9 +21,11 @@ export default function Home() {
       <NavbarBase
         logoSrc="/images/logo.svg"
         logoAlt="NovaToken Logo"
-        logoText="NovaToken"
-        navItems={navItems}
-        buttonText="Buy NovaToken"
+        leftButtonText="Menu"
+        rightButtonText="Contact"
+        onLeftButtonClick={() => {}}
+        onRightButtonClick={() => {}}
+        className="navbar"
       />
       <div id="hero" className="scroll-mt-24">
         <TokenBillboardHero
